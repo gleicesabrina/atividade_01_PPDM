@@ -1,18 +1,14 @@
-fun main(){ 
-
-  var a: Int
-  var b: Int
-  
-print("numero a: ")
-a = readLine().toString().toInt()
-
-print("numero b: ")
-b = readLine().toString().toInt()
-
-val multi = a * b
-  
-  print(multi) 
-
+fun main() {
+	
+    var a: Int
+    val e = 2
+    
    
+    print("Digite o valor A: ") 
+		  a = readLine().toString().toInt() 
+      
+    var v = Math.pow(a.toDouble(), e.toDouble()).toInt()
+    
+    print(v)
 
-} 
+}
